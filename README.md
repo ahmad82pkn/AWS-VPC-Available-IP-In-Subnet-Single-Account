@@ -10,9 +10,11 @@ Please follow steps to update the code as per your account numbers/arn info at s
 
 3- Create a Lambda Role with following permission and name it something like available-ip-single-account
 
-{ "Version": "2012-10-17",
+	{ 
+	"Version": "2012-10-17",
 
-"Statement": [
+	"Statement": 
+	[
 
 	{
 		"Effect": "Allow",
@@ -32,8 +34,8 @@ Please follow steps to update the code as per your account numbers/arn info at s
 		"Action": "sns:Publish",
 		"Resource": "arn:aws:sns:REGION:ACCOUNT NUMBER:NotifyMe" ---> Refer to correct SNS topic ARN
 	}
-]
-}
+	]
+	}
 
 4- Go to your Lambda Function Config in AWS console and change execution role name to the role name created at step 3 and test.
 
