@@ -1,5 +1,11 @@
 This Code will help monitor number of free ip in each subnet across single account/multiple region/vpc and alert if they decrease below specified threshold.
 
+
+PLEASE NOTE, YOU CAN DEPLOY THIS CODE DIRECTLY FROM AWS CONSOLE -> Search for Available-ip and change region
+
+https://ap-southeast-2.console.aws.amazon.com/lambda/home?region=ap-southeast-2#/create/function
+
+
 ####INSTRUCTIONS#####
 
 Please follow steps to update the code as per your account numbers/arn info at specified locations.
